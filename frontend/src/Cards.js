@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, CardGroup} from 'react-bootstrap';
-import Input from './Input.js';
-import NetworkProps from './Network.js';
+import SpecifierForm from './SpecifierForm';
+import NetworkProps from './Network';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -13,7 +13,7 @@ class Cards extends React.Component{
             <CardGroup>
               <Card>
                 <Card.Body>
-                  <Input/>
+                  <SpecifierForm/>
                   <Card.Text>
                     Placeholder for probability table before transformation.{' '}
                   </Card.Text>

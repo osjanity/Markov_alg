@@ -1,9 +1,4 @@
 
-# get thing from json request
-# parse thing enough to put into this class
-# #use the populated class to run algs (find_reversal, switch_edge)
-
-
 import itertools
 class NodeData:
     '''
